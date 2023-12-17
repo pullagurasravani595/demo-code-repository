@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #edf6f7;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-input-container {
+    background-color: #8eb6bd;
+    line-height: 2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.icon {
+    margin: 20px;
+}
+
+.card-container-element {
+    background-color: #b8dde3;
+    padding: 4px;
+    border: 1px solid #099cdb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6px;
+    padding-top: 8px;
+    width: auto;
+    height: 160px;
+}
+
+.new-button {
+    background-color: #137cb0;
+    color: #ffffff;
+    border-width: 0px;
+    line-height: 2;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.product-img {
+    width: 80px;
+    height: 90px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.size-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.title {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+@media (min-width: 768px) {
+    .results-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+
+    .card-container-element {
+        margin-bottom: 30px;
+        width: 240px;
+        height: 220px;
+    }
+
+    .product-img {
+        width: 100px;
+        height: 150px;
+    }
+}
+
+.highlight-size {
+    background-color: #57b1de;
+    color: #ffffff;
+}
